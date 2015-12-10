@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+form{
+    margin: 26px auto 0;
+    padding: 20px 20px 1px 20px;
+    border-radius: 7px;
+    display: block;
+    width: 629px;
+    background-color: #BDC9CE;
+}
+
+fieldset{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+legend{}
+
+label{
+    width: 159px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+label.error{
+    width: 303px;
+}
+
+input{}
+input[type="submit"], input[type="reset"]{
+    border: 2px solid #707275;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+label.error{
+    float:none;
+    color:red;
+    font-size:87.5%;
+}
+
+/*Register Page*/
+.register-message {
+    margin:15px;
+}
